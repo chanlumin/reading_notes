@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <style type="text/css">       
+    	body {
+    		margin: 0
+    	} 
+      
+        div.scroll{
+            height: 900px;
+            width: 300px;
+            overflow: auto;
+        }
+        div.scroll div{
+            width: 300px;
+        }
+        .inner {
+        	width:300px;
+  			height: 1800px;
+        }
+        ::-webkit-scrollbar {
+		    width: 12px;
+		    height: 12px
+		}
+
+		::-webkit-scrollbar-thumb {
+		    background-color: hsla(0,0%,44.3%,.06);
+		    border-radius: 12px
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+		    background-color: #45b984;
+		    border-radius: 12px
+		}
+
+		::-webkit-scrollbar {
+		  width: 12px;
+		  height: 12px;
+		}
+		::-webkit-scrollbar-button,
+		::-webkit-scrollbar-button:vertical {
+		  display: none;
+		}
+		::-webkit-scrollbar-track,
+		::-webkit-scrollbar-track:vertical {
+		  background-color: black;
+		}
+		::-webkit-scrollbar-track-piece {
+		  background-color: #f5f5f5;
+		}
+		::-webkit-scrollbar-thumb,
+		::-webkit-scrollbar-thumb:vertical {
+		  margin-right: 10px;
+		  background-color: #a6a6a6;
+		}
+		::-webkit-scrollbar-thumb:hover,
+		::-webkit-scrollbar-thumb:vertical:hover {
+		  background-color: #aaa;
+		}
+		::-webkit-scrollbar-corner,
+		::-webkit-scrollbar-corner:vertical {
+		  background-color: #535353;
+		}
+		::-webkit-scrollbar-resizer,
+		::-webkit-scrollbar-resizer:vertical {
+		  background-color: #ff6e00;
+		}
+    </style>
+</head>
+<body>
+
+    <div id="test" class="scroll">
+        <div class="inner">
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        	<div>滚动条</div>
+        </div>
+    </div>
+</body>
+</html>
